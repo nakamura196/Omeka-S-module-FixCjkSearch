@@ -2,9 +2,7 @@
 
 namespace FixCjkSearch;
 
-use Generic\AbstractModule;
-
-class Module extends AbstractModule
+class Module
 {
     const NAMESPACE = __NAMESPACE__;
 }
