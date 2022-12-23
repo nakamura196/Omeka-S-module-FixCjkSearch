@@ -2,7 +2,7 @@
 
 namespace FixCjkSearch;
 
-use Omeka\Module\AbstractModule;
+use Generic\AbstractModule;
 
 class Module extends AbstractModule
 {
