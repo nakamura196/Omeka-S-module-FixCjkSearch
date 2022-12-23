@@ -57,7 +57,8 @@ $this->trigger('view.layout');
                 <div id="search">
                     <form action="<?php echo $escape($this->url('admin/default', ['controller' => 'item', 'action' => 'browse'])); ?>">
                         <?php $searchValue = isset($_GET['property'][0]["text"]) ? $_GET['property'][0]["text"] : ''; ?>
-                        <input type="text" name="property[0][text]" value="<?php echo $escape($searchValue); ?>">
+                        <input type="text" placeholder="<?php echo $translate('Search'); ?>"
+        aria-label="<?php echo $translate('Search'); ?>" name="property[0][text]" value="<?php echo $escape($searchValue); ?>">
                         <button type="submit"><?php echo $translate('Search'); ?></button>
                         <input type="hidden" name="property[0][joiner]" value="and" />
                         <input type="hidden" name="property[0][property]" value="" />
