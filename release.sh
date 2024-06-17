@@ -1,6 +1,6 @@
 set -e
 
-version=1.0.4 # バージョンの例
+version=4.1.0 # バージョンの例
 name=FixCjkSearch # モジュール名の例
 repository_path=. # モジュールのパス（リポジトリの直下で実行する例）
 
